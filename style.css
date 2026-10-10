@@ -1,0 +1,154 @@
+/* Snakes in the Grass - the game's website (Road to launch item 20).
+   Parchment and ink, the HUD's colours; Alegreya, the HUD's type. */
+
+:root {
+    --parchment: #f6ecd6;
+    --parchment-edge: #e6d6b2;
+    --ink: #3b2a1a;
+    --ink-soft: #6b5640;
+    --wood: #6e4526;
+    --warning: #c62828;
+    --page: #2f4a1f;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: var(--page);
+}
+
+body {
+    margin: 0;
+    padding: 24px 16px 48px;
+    font-family: "Alegreya Sans", Georgia, serif;
+    font-size: 18px;
+    line-height: 1.55;
+    color: var(--ink);
+    background: var(--page);
+}
+
+.sheet {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 36px 40px 40px;
+    background: var(--parchment);
+    border: 6px solid var(--wood);
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+h1,
+h2 {
+    font-family: "Alegreya SC", Georgia, serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h1 {
+    margin: 0 0 4px;
+    font-size: 34px;
+}
+
+h2 {
+    margin: 32px 0 8px;
+    font-size: 23px;
+    border-bottom: 2px solid var(--parchment-edge);
+    padding-bottom: 4px;
+}
+
+h3 {
+    margin: 22px 0 4px;
+    font-size: 19px;
+}
+
+p,
+ul {
+    margin: 0 0 12px;
+}
+
+ul {
+    padding-left: 22px;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+a {
+    color: var(--warning);
+}
+
+.dated {
+    color: var(--ink-soft);
+    margin-bottom: 20px;
+}
+
+.summary {
+    background: #fbf5e7;
+    border-left: 5px solid var(--warning);
+    padding: 12px 16px;
+    margin: 16px 0 8px;
+}
+
+.summary ul {
+    margin: 0;
+}
+
+nav {
+    max-width: 760px;
+    margin: 0 auto 16px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: var(--parchment);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero img {
+    width: 200px;
+    max-width: 60%;
+    height: auto;
+}
+
+.tagline {
+    font-size: 21px;
+    color: var(--ink-soft);
+    margin-bottom: 24px;
+}
+
+footer {
+    max-width: 760px;
+    margin: 20px auto 0;
+    color: var(--parchment-edge);
+    font-size: 15px;
+    text-align: center;
+}
+
+footer a {
+    color: var(--parchment);
+}
+
+@media (max-width: 560px) {
+    .sheet {
+        padding: 24px 18px 28px;
+        border-width: 4px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}
