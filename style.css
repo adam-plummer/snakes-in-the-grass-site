@@ -170,6 +170,53 @@ ol li {
     margin: 0;
 }
 
+/* The homepage's day and night, side by side; stacked on a phone. */
+.shots {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 24px 0 8px;
+}
+
+.shots figure {
+    margin: 0;
+}
+
+.hero .shots img {
+    display: block;
+    width: 100%;
+    max-width: none;
+    height: auto;
+    border: 3px solid var(--ink);
+    border-radius: 6px;
+}
+
+.shots figcaption {
+    margin-top: 6px;
+    color: var(--ink-soft);
+    font-size: 16px;
+}
+
+.call {
+    margin: 22px 0 4px;
+}
+
+.call .button {
+    font-size: 21px;
+    padding: 10px 28px;
+}
+
+.call-note {
+    color: var(--ink-soft);
+    font-size: 16px;
+}
+
+@media (max-width: 560px) {
+    .shots {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media (max-width: 560px) {
     .sheet {
         padding: 24px 18px 28px;
