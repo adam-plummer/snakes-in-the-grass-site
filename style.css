@@ -142,6 +142,34 @@ footer a {
     color: var(--parchment);
 }
 
+ol {
+    margin: 0 0 12px;
+    padding-left: 22px;
+}
+
+ol li {
+    margin-bottom: 12px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 6px;
+    padding: 8px 18px;
+    background: var(--wood);
+    color: var(--parchment);
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.button:hover {
+    background: var(--ink);
+}
+
+.summary p {
+    margin: 0;
+}
+
 @media (max-width: 560px) {
     .sheet {
         padding: 24px 18px 28px;
