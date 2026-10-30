@@ -166,6 +166,12 @@ ol li {
     background: var(--ink);
 }
 
+/* The same button, before there is anywhere for it to go. */
+.waiting {
+    background: var(--ink-soft);
+    cursor: default;
+}
+
 .summary p {
     margin: 0;
 }
@@ -225,5 +231,82 @@ ol li {
 
     h1 {
         font-size: 28px;
+    }
+}
+
+/* The press page: the fact sheet, the shots and the logo pack (item 45). */
+.facts {
+    margin: 12px 0 16px;
+}
+
+.facts dt {
+    font-family: "Alegreya SC", Georgia, serif;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+.facts dd {
+    margin: 0;
+}
+
+.press-shots,
+.press-logos {
+    display: grid;
+    gap: 16px;
+    margin: 16px 0 8px;
+}
+
+.press-shots {
+    grid-template-columns: 1fr 1fr;
+}
+
+.press-logos {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: end;
+}
+
+.press-shots figure,
+.press-logos figure {
+    margin: 0;
+}
+
+.press-shots img,
+.press-logos img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.press-shots img {
+    border: 3px solid var(--ink);
+    border-radius: 6px;
+}
+
+/* The snake alone is drawn in cream, for dark backgrounds; it needs one here. */
+.on-dark {
+    background: var(--page);
+    border-radius: 6px;
+}
+
+.press-shots figcaption,
+.press-logos figcaption,
+.asset-note {
+    margin-top: 6px;
+    color: var(--ink-soft);
+    font-size: 16px;
+}
+
+video {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 3px solid var(--ink);
+    border-radius: 6px;
+    background: var(--ink);
+}
+
+@media (max-width: 560px) {
+    .press-shots {
+        grid-template-columns: 1fr;
     }
 }

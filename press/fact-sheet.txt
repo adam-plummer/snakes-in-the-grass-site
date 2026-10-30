@@ -1,0 +1,88 @@
+SNAKES IN THE GRASS - FACT SHEET
+
+A farming game for Android. Mow by day, defend by night.
+
+Developer      Adam Plummer, a sole developer in the United Kingdom
+Released       30 October 2026 in Ireland and the Philippines (soft launch);
+               other countries to follow.
+Platform       Android 8.0 and up, phones and tablets
+Price          Free to play
+In-app         Optional rewarded ads. Three optional purchases:
+               Remove Ads (GBP 3.99), Sir Noggin (GBP 1.99), Jack Frost (GBP 1.99).
+               Nothing inside a season can be bought.
+Genre          Simulation / strategy
+Language       English
+Play Store     https://play.google.com/store/apps/details?id=com.snakesinthegrass.game
+Website        https://adam-plummer.github.io/snakes-in-the-grass-site/
+Press page     https://adam-plummer.github.io/snakes-in-the-grass-site/press.html
+Contact        snakesinthegrass.game@outlook.com
+
+
+WHAT IT IS
+
+Grandad left you the farm, and the grass. Every patch you don't mow by dusk is
+somewhere a snake can hide.
+
+By day you farm: mow the long grass, sow barley, wheat and maize, keep chickens,
+sheep and cows, and sell what you grow. Every second counts, because the day is
+your real budget.
+
+By night the snakes come out of whatever you left uncut. Light them up with your
+torch, whack them with your shovel, set traps and lures, and keep them off your
+crops, your animals and your house.
+
+Fifteen days make a season, about an hour of play, resumable between any day.
+Lose the house or run out of money and the season ends, but nothing is wasted:
+every season pays heirlooms to spend on the homestead, so the next one starts
+stronger.
+
+
+WHAT MAKES IT DIFFERENT
+
+Mowing is the strategy. In most farming games cutting grass is chores; here it
+is the decision the night is built on. Snakes come up out of the grass you left
+standing, so where you mow by day is where you are safe after dark, and each day
+is a fresh puzzle rather than a routine.
+
+
+FEATURES
+
+- A day-and-night farming game played in short, tense 15-day seasons
+- 14 homestead unlocks to earn across seasons
+- 10 skulls to make a season harder for a bigger payout
+- Weekly and all-time leaderboards
+- 39 Google Play Games achievements
+- Seven farmers to play as, from Tom and Rosie to a scarecrow and a snowman
+- Share a picture of your best farm
+- Sign in with Play Games to keep your farm on a new phone
+- Plays offline; no account needed
+
+
+HISTORY
+
+Made single-handed in Unity over 2026, from a design document to a closed test
+with 22 testers in October 2026, and a soft launch the same autumn. The art is
+modelled, rigged and textured for the game; the look is a British smallholding
+in parchment and ink.
+
+
+THE ASSETS IN THIS KIT
+
+logo-sign-1024.png              the logo: a snake rising out of grass on a
+                                UK-style red warning triangle
+logo-snake-1024.png             the snake on its own, for small spaces
+icon-512.png                    the app icon
+feature-graphic-1024x500.png    the Play Store feature graphic
+shots/1-dusk.png                dusk, the grass still standing
+shots/2-night.png               the night, by torchlight
+shots/3-day.png                 the day's work
+shots/4-defences.png            traps and lures
+shots/5-animals.png             the animals
+shots/6-planning.png            planning the day
+shots/7-season.png              the end of a season
+shots/8-board.png               the leaderboard
+
+All 1920 x 1080. The trailer (1920 x 1080, 35 MB) is on the press page.
+
+These assets are free to use in coverage of the game, unchanged, with the game
+and the developer named. Any other use needs asking first.
